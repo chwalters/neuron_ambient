@@ -1,8 +1,10 @@
-# Ambient sound
+# intelora-Ambient_sound
+
+A Neuron that provides background sound for focusing or creating a relaxing ambiance
 
 ## Synopsis
 
-Background sounds for focusing or create a relaxing ambiance.
+Make Intelora play background ambient sounds for establishing a relaxing ambiance.
 
 ## Installation
 
@@ -46,6 +48,28 @@ List of available sound:
 |------------------|-----------------------------------------|--------|----------------------------------------------------------|
 | playing_sound    | The current sound played                | string | fireplace                                                |
 | available_sounds | List of available sound in the database | list   | ['fireplace', 'heavy-rain', 'tropical-beach', 'seaside'] |
+
+## Limitation
+-Only available sounds in the database:
+birds
+fireplace
+forest
+forest-rain
+forest-stream
+heavy-rain
+mountain-steam
+ocean-waves
+seaside
+stream
+summer-rain
+thunderstorm
+tropical-beach
+tropical-thunderstorm
+urban-thunderstorm
+wind
+wood-sailboat
+-Auto stop after 20 minutes
+-The user will add their own sound file inside the "sound" folder.
 
 ## Synapses example
 
